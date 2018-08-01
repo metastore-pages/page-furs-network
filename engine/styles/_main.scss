@@ -1,0 +1,107 @@
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	background: #f0efe8 url('../images/background/paw_pattern.02.png') repeat fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo {
+	background: hsl(0, 0%, 98%) url('../../storage/images/furry.02.png') no-repeat 50%;
+	box-shadow: inset 0 1px 2px rgba(10, 10, 10, .1);
+	//background-size: cover;
+	border-radius: 1rem;
+	min-height: 12rem;
+}
+
+.section-header {
+	$font-size: 4rem;
+	text-transform: uppercase;
+	.title,
+	.subtitle {
+		font-family: 'Marck Script', sans-serif;
+	}
+	.title {
+		font-size: $font-size;
+		color: hsl(0, 0%, 71%);
+	}
+	.subtitle {
+		font-size: $font-size - 2;
+		color: hsl(0, 0%, 71%);
+	}
+}
+
+.media {
+	.media-left {
+		i {
+			$size: 2rem;
+			text-align: center;
+			font-size: $size;
+			color: #fff;
+			width: ($size * 2);
+			height: ($size * 2);
+			border-radius: 50%;
+			line-height: ($size * 2);
+		}
+	}
+}
+
+.furs-life i {
+	background-color: #a33767;
+}
+
+.furs-chat i {
+	background-color: #b15757;
+}
+
+.furs-news i {
+	background-color: #713e91;
+}
+
+.furs-today i {
+	background-color: #4d5487;
+}
+
+.furs-media i {
+	background-color: #5f4e93;
+}
+
+.furs-wiki i {
+	background-color: #19858f;
+}
+
+.radio-wtf i {
+	background-color: #3b73b3;
+}
+
+.button,
+.button:hover {
+	&.social {
+		&-vk {
+			background-color: rgba(76, 117, 163, 1);
+		}
+		&-facebook {
+			background-color: rgba(59, 89, 153, 1);
+		}
+		&-twitter {
+			background-color: rgba(85, 172, 238, 1);
+		}
+		&-steam {
+			background-color: rgba(0, 0, 0, 1);
+		}
+		&-youtube {
+			background-color: rgba(205, 32, 31, 1);
+		}
+		&-twitch {
+			background-color: rgba(100, 65, 165, 1);
+		}
+		&-discord {
+			background-color: rgba(114, 137, 218, 1);
+		}
+	}
+}

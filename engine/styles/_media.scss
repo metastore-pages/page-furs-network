@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+	.section-header {
+		$font-size: 2rem;
+		.title {
+			font-size: $font-size;
+		}
+		.subtitle {
+			font-size: $font-size - 1;
+		}
+	}
+}
