@@ -7,8 +7,11 @@ html {
 	background: #f0efe8 url('../images/background/paw_pattern.02.png') repeat fixed;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto Condensed', sans-serif;
+@for $i from 1 through 6 {
+	h#{$i} {
+		font-family: 'Roboto Condensed', sans-serif;
+		text-transform: uppercase;
+	}
 }
 
 .logo {
